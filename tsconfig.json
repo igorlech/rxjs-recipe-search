@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "lib": ["DOM", "DOM.Iterable", "es2020"],
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "module": "es2020",
+        "target": "es2015",
+        "allowJs": false,
+        "types": [],
+        "paths": {
+            "@components/*": ["src/components/*"],
+            "@helpers/*": ["src/helpers/*"]
+        }
+    },
+    "files": ["src/main.ts"],
+    "include": ["src/**/*.ts"]
+}

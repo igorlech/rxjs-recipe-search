@@ -1,0 +1,88 @@
+import { ERecipeType, IMockupElement, EDifficulty } from '@components/interfaces';
+
+export const MockupRecipes: IMockupElement[] = [
+    {
+        name: 'Pancakes',
+        ingredients: ['flour', 'milk', 'eggs', 'butter'],
+        type: ERecipeType.BREAKFAST,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Spaghetti Bolognese',
+        ingredients: ['pasta', 'tomato sauce', 'meat'],
+        type: ERecipeType.DINNER,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Pizza',
+        ingredients: ['dough', 'tomato sauce', 'cheese', 'meat'],
+        type: ERecipeType.DINNER,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Pizza Vegetarian',
+        ingredients: ['dough', 'tomato sauce', 'cheese', 'vegetables'],
+        type: ERecipeType.DINNER,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Pizza Non-Existing',
+        ingredients: ['dough', 'tomato sauce', 'cheese', 'vegetables'],
+        type: ERecipeType.BREAKFAST,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Omelette',
+        ingredients: ['eggs', 'cheese', 'vegetables'],
+        type: ERecipeType.BREAKFAST,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Scrambled eggs',
+        ingredients: ['eggs', 'cheese', 'vegetables'],
+        type: ERecipeType.BREAKFAST,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Spaghetti Carbonara',
+        ingredients: ['pasta', 'eggs', 'cheese', 'meat'],
+        type: ERecipeType.DINNER,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Spaghetti Non-Existing',
+        ingredients: ['pasta', 'eggs', 'cheese', 'meat'],
+        type: ERecipeType.BREAKFAST,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Lasagna',
+        ingredients: ['pasta', 'tomato sauce', 'cheese', 'meat'],
+        type: ERecipeType.DINNER,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Fetuccine Alfredo',
+        ingredients: ['pasta', 'cheese', 'meat'],
+        type: ERecipeType.DINNER,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+    {
+        name: 'Avocado Toast',
+        ingredients: ['bread', 'avocado', 'salt'],
+        type: ERecipeType.BREAKFAST,
+        difficulty: EDifficulty.EASY,
+        isVegetarian: true,
+    },
+];
