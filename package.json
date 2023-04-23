@@ -2,9 +2,6 @@
     "version": "2.0.0",
     "description": "RxJS Recipe Search",
     "name": "rxjs-recipe-search",
-    "repository": {
-        "url": "git+https://github.com/igorlech/rxjs-recipe-search.git"
-    },
     "scripts": {
         "start": "npm run build:dev:watch",
         "build": "webpack --mode=production --node-env=production",
@@ -15,7 +12,6 @@
         "lint": "eslint -c .eslintrc.js --ext .ts src/",
         "lint:fix": "eslint -c .eslintrc.js --fix --ext .ts src/",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
     },
     "devDependencies": {

@@ -20,6 +20,7 @@ const config = {
     output: {
         path: path.resolve(__dirname, './wwwroot'),
         chunkFilename: '[chunkhash].js',
+        publicPath: '/rxjs-recipe-search/',
     },
     devServer: {
         open: true,
