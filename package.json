@@ -4,7 +4,7 @@
     "name": "rxjs-recipe-search",
     "scripts": {
         "start": "npm run build:dev:watch",
-        "build": "webpack --mode=production --node-env=production",
+        "build": " --node-env=production",
         "build:dev": "webpack --mode=development --node-env=development",
         "build:dev:watch": "webpack --mode=development --node-env=development --watch",
         "watch": "webpack --watch",
@@ -12,7 +12,7 @@
         "lint": "eslint -c .eslintrc.js --ext .ts src/",
         "lint:fix": "eslint -c .eslintrc.js --fix --ext .ts src/",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d wwwroot"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.26.0",
